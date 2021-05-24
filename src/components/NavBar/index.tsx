@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import { NavBarContent } from './style'
+import { NavBarContent } from './styles'
 import LogoAfya from '../../assets/img/logo.png';
 
 const NavBar: React.FC = () => {
@@ -14,7 +14,7 @@ const NavBar: React.FC = () => {
       <div className="links-content">
         <Link to="/"> Home </Link>
         <Link to="/criar-conta"> Inscreva-se </Link>
-        <Link to="/login"> Logar </Link>
+        <Link to="/login"> Login </Link>
       </div>
  
     </NavBarContent>

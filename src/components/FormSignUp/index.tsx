@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom'
 import { toast } from 'react-toastify'
 
 import api from '../../service/api';
+import { FormContent } from './styles';
 
 interface IUserRegister {
   cpf: string;
@@ -37,7 +38,7 @@ const FormSignUp: React.FC = () => {
     }, [formDataContent, history]
   );
   return (
-    <div>
+    <FormContent>
       { isLoad ? (
         <p>Carregando</p>
       ) : (
@@ -72,7 +73,7 @@ const FormSignUp: React.FC = () => {
           />
         </form>
       )}
-    </div>
+    </FormContent>
   );
 }
 

@@ -12,6 +12,7 @@ const Login: React.FC = () => {
     <NavBar />
     <div className="container">
       <SectionComponent>
+        <h1>Faça login</h1>
         <FormSignIn />
       </SectionComponent>
     </div>

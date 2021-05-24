@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import api from '../../service/api';
 import animationData from '../../assets/animation/60347-loader.json';
 
-import { FormContent } from './style';
+import { FormContent } from './styles';
 
 interface IUserLogin {
   usuario: string;
@@ -71,7 +71,7 @@ const FormSignIn: React.FC = () => {
          
           <input
             type="submit"
-            value="Logar"
+            value="Login"
           />
         </form>
       )}
